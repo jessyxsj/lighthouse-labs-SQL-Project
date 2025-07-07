@@ -65,7 +65,6 @@ WHERE units_sold IS NOT NULL
 GROUP BY country
 ORDER BY average_num_sold DESC;
 
--- **Question 2: What is the average number of products ordered from visitors in each city and country?**
 SELECT
 	city,
 	AVG(units_sold) AS average_num_sold

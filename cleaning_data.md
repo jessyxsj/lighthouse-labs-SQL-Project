@@ -1,5 +1,5 @@
 What issues will you address by cleaning the data?
-Data cleaning focussed on the all_sessions and the analytics tables. The tables all_sessions_clean and analytics_clean were combined into table allsession_analytics_combined to facilitate analysis, retaining the columns to be used in later analysis.
+Data cleaning focussed on the all_sessions and the analytics tables. 
 
 Issues identified and corrected in the all_sessions table:
 
