@@ -3,12 +3,12 @@
 ## Project/Goals
 The goal of this project was to clean and analyze the ecommerce data. Key objectives were to clean the raw data, create reusable views, answering the business questions like top selling products in each country and city, total revenue generated from each city and country, product category preference, etc. The goal is to provide insight into future marketing strategies.
 ## Process
-Load five CSV files into Postgresql database tables. 
-Get a general sense of the data, what goes where, and what aspects of the data may need rectification.
-Clean data and combine most important columns into a single table to facilitate analysis. 
-Answer set questions about the data. 
-Develop additional questions about the data, and provide answers with appropriate queries.
-Present general method and results, with commentary.
+1. Load five CSV files into Postgresql database tables. 
+2. Get a general sense of the data, what goes where, and what aspects of the data may need rectification.
+3. Clean data and combine most important columns into a single table to facilitate analysis. 
+4. Answer set questions about the data. 
+5. Develop additional questions about the data, and provide answers with appropriate queries.
+6. Present general method and results, with commentary.
 
 ## Results
 USA has the highest level of transaction revenue;
@@ -24,11 +24,11 @@ From these, we could tailor marketing strategies towards different country and c
 
 
 ## Challenges 
-No documentation or context
-Missing or null values
-Duplicate data in the csv files
-Scaling amount values by dividing them by 1000000
-Partial matches in the joins
+1. No documentation or context
+2. Missing or null values
+3. Duplicate data in the csv files
+4. Scaling amount values by dividing them by 1000000
+5. Partial matches in the joins
 
 
 ## Future Goals
